@@ -61,3 +61,5 @@ function viraAzul() {
   let div = document.getElementById("teste");
   div.style.backgroundColor = "blue";
 }
+
+var lista = ["arroz", "feijão", "macarrão", "leite"];

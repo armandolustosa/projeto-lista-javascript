@@ -63,3 +63,39 @@ function viraAzul() {
 }
 
 var lista = ["arroz", "feijão", "macarrão", "leite"];
+var outroArray = ["ovo", "carne"];
+
+var numeros = [1, 4, 3, 6, 2, 5];
+numeros.sort();
+
+var total = lista.reduce(function (resultado, elemento) {
+  return resultado + elemento;
+});
+
+var encontrar = lista.indexOf("leite");
+
+var novoArray = lista.concat(outroArray);
+
+var agora = new Date();
+var hora = agora.getHours();
+var saudacao;
+
+switch (true) {
+  case hora < 12:
+    saudacao = 'Bom dia!';
+    break;
+  case hora < 18:
+    saudacao = 'Boa tarde!';
+    break;
+  default:
+    saudacao = 'Boa noite!';
+}
+
+console.log(saudacao);
+
+var i = 0;
+while (i < 0) {
+    console.log(i);
+    i++;
+}
+

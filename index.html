@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendendo JS</title>
+</head>
+
+<body>
+  <h1>Aprendendo javaScript</h1>
+  <p id="texto"></p>
+  <p>
+    <script>
+      document.write("Escrito com <code>document.write</code>");
+    </script>
+    <hr>
+    <script>
+      document.write(5 + 5);
+    </script>
+  </p>
+  <p id="perfil"></p>
+  <input type="button" value="clique aqui!" onclick="eventoClick()">
+  <p id="aparece"></p>
+  <div id="teste" style="margin: auto; padding: 100px; background-color: blue;" onmouseover="viraVermelho()" onmouseout="viraAzul()">
+  </div>
+
+  <script src="/js/index.js"></script>
+</body>
+
+</html>

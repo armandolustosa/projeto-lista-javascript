@@ -5,22 +5,29 @@ body {
 
 main {
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-div {
-  display: inline-block;
+div.contorno {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30em;
+  margin: auto;
 }
 
 input {
-  width: 50%;
+  width: 14em;
   margin: 0px;
   padding: 20px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   font-size: 20px;
+  border: none;
 }
 
-button {
+button.adicionar {
+  width: 8em;
   margin: 0px;
   padding: 20px;
   border-top-right-radius: 10px;
@@ -31,20 +38,67 @@ button {
   color: rgb(3, 69, 3);
   font-weight: bold;
   font-size: 20px;
+  border: none;
 }
 
-section {
-  display: flex;
+section#areaLista {
   margin: auto;
-  width: 80%;
-  flex-wrap: wrap;
+  width: 90%;
   border: 1px solid black;
   border-radius: 10px;
-  box-shadow: 0px 0px 6px black inset;
+  box-shadow: 0px 0px 10px #ccc inset;
   padding: 20px;
+  padding-bottom: 10px;
   margin-top: 30px;
 }
 
-span {
+div.comentario.clicado {
+  text-decoration: line-through;
+  color: rgba(107, 89, 89, 0.625);
+  background-color: rgba(144, 238, 144, 0.468);
+}
+
+span.sombra {
   text-shadow: 1px 1px 6px black;
+}
+
+div.comentario {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+#item-icone {
+  width: 15%;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#item-nome {
+  width: 55%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#item-botao {
+  width: 25%;
+}
+
+.delete {
+  background-color: red;
+  border: none;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mdi-check-circle {
+  color: green;
 }

@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+main {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+}
+
+input {
+  width: 50%;
+  margin: 0px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 20px;
+}
+
+button {
+  margin: 0px;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: black;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: rgb(3, 69, 3);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px black inset;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+span {
+  text-shadow: 1px 1px 6px black;
+}

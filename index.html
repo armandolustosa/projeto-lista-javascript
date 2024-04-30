@@ -4,26 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Aprendendo JS</title>
 </head>
 
 <body>
-  <h1>Aprendendo javaScript</h1>
-  <p id="texto"></p>
-  <p>
-    <script>
-      document.write("Escrito com <code>document.write</code>");
-    </script>
-    <hr>
-    <script>
-      document.write(5 + 5);
-    </script>
-  </p>
-  <p id="perfil"></p>
-  <input type="button" value="clique aqui!" onclick="eventoClick()">
-  <p id="aparece"></p>
-  <div id="teste" style="margin: auto; padding: 100px; background-color: blue;" onmouseover="viraVermelho()" onmouseout="viraAzul()">
-  </div>
+  <main>
+    <h1>Lista de Tarefas <span>&#x1F4DD</span></h1>
+    <div>
+      <input type="text" placeholder="Digite a tarefa" id="inputTarefa"><button type="submit" name="">Adicionar</button>
+    </div>
+
+    <section id="areaLista">
+      <div id="item-icone"></div>
+      <div id="item-nome"></div>
+      <div id="item-botao"></div>
+    </section>
+
+  </main>
 
   <script src="/js/index.js"></script>
 </body>

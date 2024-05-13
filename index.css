@@ -102,3 +102,25 @@ div.comentario {
 .mdi-check-circle {
   color: green;
 }
+
+@media only screen and (max-width: 520px) {
+  div.contorno {
+    width: 18.9em;
+  }
+
+  input {
+    width: 12em;
+    margin: 0px;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  button.adicionar {
+    width: 6.7em;
+    font-size: 14px;
+  }
+
+  section#areaLista {
+    width: 80%;
+  }
+}
